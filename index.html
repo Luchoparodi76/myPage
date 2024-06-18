@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myPage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header style="background-image: url('images/WhatsApp Image 2024-06-18 at 11.03.59(2).jpeg');">
+    <h1>FIESTAS DE GALHA</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#quienes-somos">Quiénes Somos</a></li>
+      <li><a href="#nuestro-trabajo">Nuestro Trabajo</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <div class="image-container">
+        <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.02(1).jpeg"
+          alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.02(1).jpeg"
+          onclick="ampliarImagen(this)">
+        <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.58.jpeg"
+          alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.58.jpeg"
+          onclick="ampliarImagen(this)">
+      </div>
+      <p>Texto y contenido de la sección "Quiénes Somos".</p>
+    </section>
+
+    <section id="nuestro-trabajo">
+      <h2>Nuestro Trabajo</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\Captura de pantalla 2024-06-18 110256.png"
+            alt="C:\Users\Luis\Documents\mypage\images\Captura de pantalla 2024-06-18 110256.png"
+            onclick="ampliarImagen(this)">
+        </div>
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59(1).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59(1).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+        <!-- Repite para las otras 13 imágenes -->
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59(2).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59(2).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59.jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.03.59.jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00(1).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00(1).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.03.jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.03.jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00(2).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00(2).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.02(2).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.02(2).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00.jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.00.jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.01(3).jpeg"
+            alt="C:\Users\Luis\Documents\mypage\images\WhatsApp Image 2024-06-18 at 11.04.01(3).jpeg"
+            onclick="ampliarImagen(this)">
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="fecha-evento">Fecha del Evento:</label>
+        <input type="date" id="fecha-evento" name="fecha-evento" required>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p>Envianos un mensaje ahora <a href="https://wa.me/5493515381259">
+          <img src="C:\Users\Luis\Documents\mypage\images\whatsapp.png" alt="WhatsApp" width="50" height="50"></a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 myPage. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
